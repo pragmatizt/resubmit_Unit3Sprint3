@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>U3-S3 Sprint Challenge</title>
+    <h1>Header</h1>
+    <h2>subheader</h2>
+  </head>
+  <body>
+    {% for top in top_ten %}
+    <p><ul>The top dates are: {{ top }}</ul></p>
+    <p><ul>The top values are: {{ top.value }}</ul></p>
+    {% endfor %}
+    <!-- tried doing <ul> to list them neatly... but didn't work -->
+  </body>
+</html>
